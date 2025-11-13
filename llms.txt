@@ -1,0 +1,39 @@
+# CRAlign - AI Musculoskeletal Wellness Assessment
+
+> AI-assisted musculoskeletal assessment producing structured findings and corrective exercise plans.
+
+Author: Muhammad Tanveer (Full-Stack AI Automation Engineer)
+Contact: mtanveertahir66@gmail.com | https://www.linkedin.com/in/muhammad-tanveer-advenno/
+Repository: https://github.com/haddindeve/cralign-msk-wellness-ai
+Source availability: implementation held in a private repository; access on request.
+
+## Summary
+Musculoskeletal screening depends on practitioner availability and consistency. Two assessors can reach different conclusions from the same presentation, and clients rarely leave with a structured, followable plan.
+
+A guided assessment flow that captures inputs consistently, applies an analysis layer to produce structured findings, and turns those findings into a corrective exercise plan. Adapters keep the analysis layer independent of any single input source, so the assessment method can evolve without rewriting the application.
+
+## Stack
+Frontend: TypeScript, Next.js, Analysis: AI-assisted assessment layer, Architecture: Adapter pattern for input sources, Docs: Worked examples and specifications
+
+## Capabilities
+- Guided musculoskeletal assessment
+- Structured, repeatable findings
+- Corrective exercise plan generation
+- Adapter-based input abstraction
+
+## Outcomes
+- Consistent assessment output independent of individual assessor variation
+- Clients leave with a structured plan rather than verbal advice
+
+## FAQ
+Q: Is this a medical device?
+A: No. It is a wellness and screening tool that produces structured findings and exercise suggestions, not a diagnostic system.
+
+Q: What does the AI actually do?
+A: It turns captured assessment inputs into structured findings, applying the same logic every time so results do not vary by assessor.
+
+Q: Why the adapter layer?
+A: So the analysis stays independent of how inputs are captured and the assessment method can change without an application rewrite.
+
+Q: Is the code public?
+A: No - private repository, access on request.
